@@ -4,3 +4,6 @@
 [submodule "frontier_exploration"]
 	path = frontier_exploration
 	url = https://github.com/paulbovbel/frontier_exploration.git
+[submodule "navigation"]
+	path = navigation
+	url = https://github.com/ros-planning/navigation.git
