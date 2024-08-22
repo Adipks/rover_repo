@@ -7,3 +7,6 @@
 [submodule "navigation"]
 	path = navigation
 	url = https://github.com/ros-planning/navigation.git
+[submodule "robot_pose_ekf"]
+	path = robot_pose_ekf
+	url = https://github.com/ros-planning/robot_pose_ekf.git
