@@ -13,3 +13,6 @@
 [submodule "rtabmap_ros"]
 	path = rtabmap_ros
 	url = https://github.com/introlab/rtabmap_ros.git
+[submodule "slam_gmapping"]
+	path = slam_gmapping
+	url = https://github.com/ros-perception/slam_gmapping.git
