@@ -16,3 +16,6 @@
 [submodule "slam_gmapping"]
 	path = slam_gmapping
 	url = https://github.com/ros-perception/slam_gmapping.git
+[submodule "autonomous_navigation"]
+	path = autonomous_navigation
+	url = https://github.com/Adipks/autonomous_navigation.git
