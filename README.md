@@ -1,6 +1,6 @@
 # drive system stack overview
 This repo contains links to all the packages which are essential and necessary for the [autonomous software stack](https://github.com/Adipks/autonomous_navigation/tree/main).
-This all these packages essentialy are what you would have in your ros_workspace.The autonomous navigation package essentialy uses move_base a software architecture for autonomous navigation and planning.
+This all these packages essentialy are what you would have in your ros_workspace.The autonomous navigation package essentialy uses [move_base](https://github.com/Adipks/rover_repo/blob/main/README_move_base.md) a software architecture for autonomous navigation and planning.
 The implementation of this architecture to perform autonomous navigation in your rover is described in the [autonomous_navigation_repo](https://github.com/Adipks/autonomous_navigation/tree/main).
 
 ### Packages used
