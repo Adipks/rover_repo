@@ -17,5 +17,7 @@ The implementation of this architecture to perform autonomous navigation in your
 
 ├── [navigation](https://github.com/Adipks/rover_repo/blob/main/README_navigation.md)
 
+├── [Zed2i_ws](https://github.com/Adipks/rover_repo/blob/main/zed.md)
+
 ## teb-local-planner
 the [teb local planner](https://wiki.ros.org/teb_local_planner) is used by our autonomous navigation stack to serve the purpose of a local planner ,global planning is done by navfn_ros which is already included as a part of the [navigation package](https://github.com/ros-planning/navigation/tree/9ad644198e132d0e950579a3bc72c29da46e60b0).The [teb_local_planner_tutorials](https://github.com/rst-tu-dortmund/teb_local_planner_tutorials) helps you get started on how to use the teb local planner.
