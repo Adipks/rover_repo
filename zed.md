@@ -57,7 +57,7 @@ After this there will be a series of installtion inshell prompts. Install the re
 
 Now the system is ready to clone the <b>zed_workspace</b> for running the camera from ROS API.
 
-The following are the instructions to clone and use the <b>zed_workspace</b>.
+The following are the instructions to clone and use the <b>zed_ros_workspace</b>.
 
 ```
 cd ~/catkin_ws/src
@@ -68,6 +68,12 @@ catkin_make -DCMAKE_BUILD_TYPE=Release
 source ./devel/setup.bash
 
 ```
+
+Next the following two packages are optional
+<li><b>zed_ros_interfaces</b></li>
+<li><b>zed_ros_examples</b></li>
+
+
 
 
 
