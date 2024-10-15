@@ -17,7 +17,23 @@ Our Rover has a vision from ZED-2i camera.
 
 
 Dependencies
+### Prerequisites
 
-20.04 Nvidia 520 535 
+| Dependency  | Version  |
+|-------------|----------|
+| Ubuntu      | 20.04    |
+| ZED SDK     | ≥ 3.5    |
+| CUDA        | Required |
+| ROS         | Noetic   |
 
-cuda for each nvidia using run method
+<span style="font-size: 1.2em;">[![Ubuntu](https://img.shields.io/badge/Ubuntu-20.04-orange)](https://releases.ubuntu.com/20.04/)</span>
+<span style="font-size: 1.2em;">[![ZED SDK](https://img.shields.io/badge/ZED%20SDK-3.5+-blue)](https://www.stereolabs.com/zed/)</span>
+<span style="font-size: 1.2em;">[![ROS Noetic](https://img.shields.io/badge/ROS-Noetic-green)](http://wiki.ros.org/noetic)</span>
+
+### IMPORTANT CUDA Installation
+
+By default after the linux kernel update the default Nvidia driver metapackage should be Nvidia Proprietory 535 if not it is required to downgrade to that version if a more later has been installed by default.
+
+> Since the default tf(tensorflow) and CUDA version required by the Nvidia Driver is not supported by Ubuntu 20.04 we will follow a method of downgrading installation which is discussed in the following document of [CUDA]()
+
+Once the CUDA Toolkit has been installed, we proceed with installation of ZED SDK which is inherently dependent on the CUDA version. The following link redirects to ZED SDK Official installation and one can install the required SDK for their respective CUDA version. [ZED SDK](https://www.stereolabs.com/en-in/developers/release)
