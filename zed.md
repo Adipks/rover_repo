@@ -14,3 +14,10 @@ Our Rover has a vision from ZED-2i camera.
 <li>Pose tracking: Position and orientation of the camera fixed and fused with IMU data</li>
 <li>Spatial mapping: Fused 3d point cloud</li>
 <li>Sensors data: accelerometer, gyroscope, barometer, magnetometer, internal temperature sensors</li>
+
+
+Dependencies
+
+20.04 Nvidia 520 535 
+
+cuda for each nvidia using run method
