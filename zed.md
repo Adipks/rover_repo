@@ -71,11 +71,7 @@ source ./devel/setup.bash
 
 Next the following two packages are optional
 <li><b>zed_ros_interfaces</b></li>
-```
 
-```
-
-<li><b>zed_ros_examples</b></li>
 ```
 cd ~/catkin_ws/src
 git clone https://github.com/stereolabs/zed-ros-interfaces.git
@@ -84,6 +80,9 @@ rosdep install --from-paths src --ignore-src -r -y
 catkin_make -DCMAKE_BUILD_TYPE=Release
 source ./devel/setup.bash
 ```
+
+<li><b>zed_ros_examples</b></li>
+
 
 
 
