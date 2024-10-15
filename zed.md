@@ -92,7 +92,11 @@ catkin_make -DCMAKE_BUILD_TYPE=Release
 source ./devel/setup.bash
 ```
 
+Finally we can launch the camera using the following command
 
+```
+roslaunch zed_wrapper zed2i.launch
+```
 
 
 
