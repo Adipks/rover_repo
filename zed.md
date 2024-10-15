@@ -37,3 +37,28 @@ By default after the linux kernel update the default Nvidia driver metapackage s
 > Since the default tf(tensorflow) and CUDA version required by the Nvidia Driver is not supported by Ubuntu 20.04 we will follow a method of downgrading installation which is discussed in the following document of [CUDA]()
 
 Once the CUDA Toolkit has been installed, we proceed with installation of ZED SDK which is inherently dependent on the CUDA version. The following link redirects to ZED SDK Official installation and one can install the required SDK for their respective CUDA version. [ZED SDK](https://www.stereolabs.com/en-in/developers/release)
+
+After Downloading the file navigate to the folder containing the .zstd.run file.
+
+Make sure to install zstd for extracting
+
+```
+sudo apt install zstd
+```
+
+```
+cd ~/path_to_folder/file.zstd.run
+chmod +x file.zstd.run
+./file.zstd.run
+```
+
+
+
+
+
+
+
+
+
+
+
