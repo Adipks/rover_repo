@@ -52,6 +52,11 @@ chmod +x file.zstd.run
 ./file.zstd.run
 ```
 
+After this there will be a series of installtion inshell prompts. Install the requied features or services of ZED SDK. For to use the entire potential of the SDK it is better to install all the services provided by the ZED SDK.
+
+
+
+
 
 
 
