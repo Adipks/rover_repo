@@ -55,7 +55,19 @@ chmod +x file.zstd.run
 After this there will be a series of installtion inshell prompts. Install the requied features or services of ZED SDK. For to use the entire potential of the SDK it is better to install all the services provided by the ZED SDK.
 
 
-Now the system is ready to clone the <b>zed_workspace</b>
+Now the system is ready to clone the <b>zed_workspace</b> for running the camera from ROS API.
+
+The following are the instructions to clone and use the <b>zed_workspace</b>.
+
+```
+cd ~/catkin_ws/src
+git clone --recursive https://github.com/stereolabs/zed-ros-wrapper.git
+cd ../
+rosdep install --from-paths src --ignore-src -r -y
+catkin_make -DCMAKE_BUILD_TYPE=Release
+source ./devel/setup.bash
+
+```
 
 
 
