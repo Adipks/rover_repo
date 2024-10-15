@@ -43,3 +43,4 @@ For more detailed information and configuration options, refer to the official R
 ---
 
 The `rtabmap_ros` package is a robust solution for Visual SLAM, enabling robots to create accurate 3D maps of their environments while localizing themselves effectively, making it an excellent choice for exploration and navigation tasks.
+[Back](https://github.com/Adipks/rover_repo?tab=readme-ov-file)
