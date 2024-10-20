@@ -76,4 +76,4 @@ After completing the previous steps, follow the instructions [here](https://gith
 By completing these steps, your ROS workspace will be configured with the necessary packages, TEB local planner, and ZED sensor setup.
 
 ## Launching the Navigation Stack
-[click here](<hyperlink>)
+[click here](https://github.com/Adipks/autonomous_navigation/tree/main)
