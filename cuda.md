@@ -14,3 +14,7 @@ Here are the steps for the Downgrading Installation:
 > 4) In the installer menu choose the following options
 
 ![Alt text](cuda.png)
+
+
+
+> 5) Note that we dont install the driver version 520 but only the CUDA compiler tools.
