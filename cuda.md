@@ -13,4 +13,4 @@ Here are the steps for the Downgrading Installation:
     ```
 > 4) In the installer menu choose the following options
 
-  
+![Alt text](Screenshot.png)
