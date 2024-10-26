@@ -18,3 +18,10 @@ Here are the steps for the Downgrading Installation:
 
 
 > 5) Note that we dont install the driver version 520 but only the CUDA compiler tools.
+
+> 6) After installation add the following to paths
+ ```
+export PATH=/usr/local/cuda-11.8/bin:$PATH
+
+export LD_LIBRARY_PATH=/usr/local/cuda-11.8/lib64:$LD_LIBRARY_PATH
+ ```
