@@ -34,7 +34,7 @@ Dependencies
 
 By default after the linux kernel update the default Nvidia driver metapackage should be Nvidia Proprietory 535 if not it is required to downgrade to that version if a more later has been installed by default.
 
-> Since the default tf(tensorflow) and CUDA version required by the Nvidia Driver is not supported by Ubuntu 20.04 we will follow a method of downgrading installation which is discussed in the following document of [CUDA]()
+> Since the default tf(tensorflow) and CUDA version required by the Nvidia Driver is not supported by Ubuntu 20.04 we will follow a method of downgrading installation which is discussed in the following document of [CUDA](https://github.com/Adipks/rover_repo/blob/main/cuda.md)
 
 Once the CUDA Toolkit has been installed, we proceed with installation of ZED SDK which is inherently dependent on the CUDA version. The following link redirects to ZED SDK Official installation and one can install the required SDK for their respective CUDA version. [ZED SDK](https://www.stereolabs.com/en-in/developers/release)
 
