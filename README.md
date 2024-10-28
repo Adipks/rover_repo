@@ -51,7 +51,11 @@ Once the workspace is created, clone all the necessary packages from the reposit
    ```bash
    cd ~/ros_workspace/src
    ```
-2. Clone all the repositories containing the required packages:
+2. Clone all the repositories containing the required packages:   
+   ```bash
+   git clone --recurse-submodules <repository-url>
+   ```
+   >Alternatively if you want to add all repositories one by one
    ```bash
    git clone <repository_url>
    ```
